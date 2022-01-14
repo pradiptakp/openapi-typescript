@@ -1,5 +1,5 @@
 {
-  "name": "openapi-typescript",
+  "name": "@pradiptakp-org/openapi-typescript",
   "description": "Generate TypeScript types from Swagger OpenAPI specs",
   "version": "5.1.0",
   "engines": {
@@ -30,7 +30,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/drwpow/openapi-typescript"
+    "url": "git+https://github.com/drwpow/openapi-typescript.git"
   },
   "keywords": [
     "swagger",
@@ -86,5 +86,11 @@
     "mocha": "^9.1.3",
     "nyc": "^15.1.0",
     "typescript": "^4.5.4"
+  },
+  "types": "./dist/cjs/index.d.ts",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
   }
 }

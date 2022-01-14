@@ -113,7 +113,7 @@ async function openapiTS(
       console.error(`❌ ${err}`);
     }
   }
-  return prettier.format(output, prettierOptions);
+  return prettier.format(output.replace(/object Object/g, "object"), prettierOptions);
 }
 
 export default openapiTS;
